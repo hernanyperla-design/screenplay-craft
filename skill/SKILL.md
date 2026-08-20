@@ -13,9 +13,15 @@ Run this first, every time. It clones on first use and updates on every use afte
 so the doctrine you read is always current:
 
 ```bash
-git -C ~/screenplay-craft pull --quiet 2>/dev/null \
-  || git clone --depth 1 --quiet https://github.com/hernanyperla-design/screenplay-craft ~/screenplay-craft
+if [ -d ~/screenplay-craft/.git ]; then
+  git -C ~/screenplay-craft pull --quiet 2>/dev/null || true
+else
+  git clone --depth 1 --quiet https://github.com/hernanyperla-design/screenplay-craft ~/screenplay-craft
+fi
 ```
+
+The pull is allowed to fail silently. If there are uncommitted local edits, or the
+network is down, the existing clone is still read rather than lost.
 
 Then read `~/screenplay-craft/codex/craft-codex.md`.
 
