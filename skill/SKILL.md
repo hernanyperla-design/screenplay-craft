@@ -44,6 +44,9 @@ exactly the places that matter.
 | VI | Opening hook construction, five levers with a scored diagnostic | Working draft |
 | VII | Mystery and information craft, twelve principles | Working draft |
 | VIII | The payoff audit, Chekhov's gun in both directions | Working draft |
+| IX | Commercial thriller readability, exposition under pressure, physical suspense | Working draft |
+| X | Backstory, trauma, and present-tense dramatic function | Working draft |
+| XI | Revision provenance, native-format preservation, validation | Working draft |
 
 Apply stable sections freely. Apply working drafts too, but tell the writer they are
 provisional and note what worked, since results feed the decision to promote them.
@@ -79,14 +82,22 @@ dialogue on a broken spine wastes the pass.
    windfall, or coincidence, that is a payoff failure. Restructure rather than polish.
 4. **Does every scene pass G.O.D.D.?**
 5. **Is the dialogue carrying subtext?**
-6. **Are the action lines filmable?**
+6. **Can a dialogue-skimming reader follow the discovery, objective, and danger?**
+7. **Are the action lines filmable, geographically clear, and physically suspenseful?**
 
 ## Working method
 
-Draft and revise in Fountain, treating it as the working source. Critique per act
-against the codex, expecting two or three cycles per act in dialog-forward and one or
-two in visual-first. Revise on the notes, changing only what each note calls for.
-Compile the final deliverable last.
+Preserve the project's established source format. Use Fountain as a useful default only
+when a new project has no source-of-truth format. An established FDX project stays FDX;
+temporary conversions never silently replace it. Critique per act against the codex,
+revise only within the approved scope, and compile the final deliverable last.
+
+When the writer asks to discuss notes first, diagnose and recommend without editing.
+Promote a new craft rule only after writer approval, blind comparison, complete mechanical
+validation, and a held-out check against other projects or registers.
+
+For system-level changes or claims of professional parity, follow `EVALUATION.md` in the
+repository. Never use the model's self-score as proof that the writing is professional.
 
 ## Scope
 
