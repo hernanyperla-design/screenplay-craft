@@ -2,9 +2,23 @@
 
 Accumulated screenplay craft doctrine.
 
-**This file is the source of truth for the craft layer.** Edit it here. The local
-toolchain reads it directly, and `build-craft-skill.py` syncs it into the portable
-`screenplay-craft` skill so Cowork and any other machine get the same doctrine.
+**This repository is the master for shared craft doctrine and source-evidence
+validation.** The portable skill reads this file after updating the repository.
+Local integrations must load the shared validator from this checkout rather than
+maintain a second implementation. Private automation and corpus files stay local.
+
+### Required source-evidence check
+
+For source-based critique, read `EVIDENCE.md` at the repository root and execute
+`tools/critique_evidence.py`. This requirement applies even when an older installed
+skill loads only this codex. Put verbatim quotations in structured evidence, verify
+each against the supplied draft or named exemplar, and label interpretations and
+proposed writing separately. Withhold failed reports from actionable notes. Check
+the saved receipt against the current screenplay and report immediately before
+applying approved revisions. Missing code execution or a failed check means the
+notes are unverified and must not drive automatic edits. A successful quote check
+does not establish creative quality. This is an operational safeguard, not a new
+creative doctrine claim. See `WORKFLOW.md` for the current shared workflow.
 
 Sections I-V are stable. Sections marked **working draft** are in active validation
 against real scripts and may change, move, or be removed.

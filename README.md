@@ -2,22 +2,22 @@
 
 Portable screenplay craft doctrine, packaged as a Claude skill.
 
-This repository holds one thing of substance: [`codex/craft-codex.md`](codex/craft-codex.md),
+The shared craft master is [`codex/craft-codex.md`](codex/craft-codex.md),
 an accumulated set of craft rules for writing and revising screenplays. Story
 architecture, structure, dialogue subtext, action-line economy, opening hooks,
 mystery information management, physical suspense, backstory function, and
 revision discipline.
 
-It is pure text. No code, no API keys, no local dependencies. That is deliberate:
-it means the same doctrine works in Claude Code on your own machine, in a cloud
-session, or on a collaborator's laptop, with nothing to install.
+The doctrine remains portable text. A standard-library Python validator now checks
+source quotations and rejects stale critique receipts. It needs Python 3.10+ but
+no API keys, packages, or private corpus. See [EVIDENCE.md](EVIDENCE.md).
 
 ## What this is not
 
-This is the knowledge layer of a larger system. The automation that applies this
-doctrine (a generation pipeline, a corpus-anchored critique tool, a PDF-annotation
-sync tool) lives elsewhere and runs locally. Those tools are not required. Every
-pass they automate is defined here in a form a person or a model can execute by hand.
+This is the shared knowledge and evidence-validation layer of a larger system.
+Generation, corpus retrieval, screenplay rewriting, and PDF-annotation sync remain
+separate local tools. Cloud sessions use [WORKFLOW.md](WORKFLOW.md) and the portable
+validator; publishing the checker does not make unrelated apps execute it.
 
 The elite-screenplay corpus that the critique tool scores against is copyrighted
 source material and is deliberately absent from this repository.
@@ -25,6 +25,9 @@ source material and is deliberately absent from this repository.
 ## Install
 
 See [SETUP.md](SETUP.md).
+
+Run the portable regression suite with `python3 -m unittest discover -s tests -v`.
+Tests contain synthetic text only and make no API calls.
 
 ## Status
 
