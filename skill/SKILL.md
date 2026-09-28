@@ -1,106 +1,50 @@
 ---
 name: screenplay-craft
-description: Portable screenplay craft doctrine covering story architecture, structure, dialogue subtext, visual action lines, opening hooks, mystery information management, and payoff auditing. Use whenever writing, revising, critiquing, or evaluating a screenplay, pilot, treatment, scene, or dialogue pass, and whenever judging whether a draft is working and why. Also use when giving script notes or diagnosing why an opening, an ending, or a character arc falls flat. Pure knowledge with no local dependencies, so it works identically in Claude Code, cloud sessions, and on any machine. Pulls the current codex from a public git repository on invoke, so the doctrine is never stale.
+description: Shared screenplay writing, revision, and critique doctrine. Use for screenplay, pilot, treatment, scene, dialogue, and script-note work. Loads current doctrine and source-evidence validation from the screenplay-craft GitHub master. Mechanical quote checks require Python 3.10+.
 ---
 
 # Screenplay Craft
 
-The portable doctrine layer. Everything is text, so this works the same everywhere.
+This is a bootstrap. Keep workflow instructions in the repository, so an installed
+copy of this skill can load future improvements without being reinstalled.
 
-## Step 1 - get the current codex
+## Refresh the master on each invocation
 
-Run this first, every time. It clones on first use and updates on every use after,
-so the doctrine you read is always current:
+Use the user's existing `~/screenplay-craft` checkout. Clone it if missing:
 
 ```bash
-if [ -d ~/screenplay-craft/.git ]; then
-  git -C ~/screenplay-craft pull --quiet 2>/dev/null || true
-else
-  git clone --depth 1 --quiet https://github.com/hernanyperla-design/screenplay-craft ~/screenplay-craft
-fi
+git clone --depth 1 https://github.com/hernanyperla-design/screenplay-craft ~/screenplay-craft
 ```
 
-The pull is allowed to fail silently. If there are uncommitted local edits, or the
-network is down, the existing clone is still read rather than lost.
+For an existing checkout, check for local modifications first:
 
-Then read `~/screenplay-craft/codex/craft-codex.md`.
+```bash
+git -C ~/screenplay-craft status --porcelain
+```
 
-If the network is unavailable and no clone exists, say so plainly and work from the
-principles below. Do not invent doctrine to fill the gap.
+If clean, update the checkout with:
 
-## Step 2 - read the codex before doing craft work
+```bash
+git -C ~/screenplay-craft pull --ff-only origin main
+```
 
-Read the file. Do not work from memory of these principles, because the codex changes
-as techniques get validated, and a half-remembered version will be subtly wrong in
-exactly the places that matter.
+Do not reset, stash, switch branches, or overwrite local changes automatically.
+If refresh fails, or local changes prevent it, report that the master was not
+refreshed and identify the available commit. Do not claim an offline or modified
+copy is current. An available cached version may still be used with that caveat.
+If no checkout is available, state the limitation rather than inventing its rules.
 
-| Section | Covers | Status |
-|---|---|---|
-| I | Story architecture, controlling idea, Want/Need/Flaw, conflict engine | Stable |
-| II | Structure, Save the Cat hybrid, G.O.D.D. scene test, arrive late/leave early | Stable |
-| III | Dialogue, subtext first, naturalistic rhythm, strategic pauses | Stable |
-| IV | Visual and action lines, economy, active verbs, no unfilmable interiority | Stable |
-| V | Format rules | Stable |
-| VI | Opening hook construction, five levers with a scored diagnostic | Working draft |
-| VII | Mystery and information craft, twelve principles | Working draft |
-| VIII | The payoff audit, Chekhov's gun in both directions | Working draft |
-| IX | Commercial thriller readability, exposition under pressure, physical suspense | Working draft |
-| X | Backstory, trauma, and present-tense dramatic function | Working draft |
-| XI | Revision provenance, native-format preservation, validation | Working draft |
+## Read the shared instructions
 
-Apply stable sections freely. Apply working drafts too, but tell the writer they are
-provisional and note what worked, since results feed the decision to promote them.
+Read these from the refreshed checkout before doing craft work:
 
-## Register: ask once, then hold
+1. `codex/craft-codex.md`
+2. `WORKFLOW.md`
+3. `EVIDENCE.md` when critiquing existing source material or applying those notes
 
-Establish this before drafting anything substantial. It governs everything downstream
-and should not drift mid-script.
+Follow the source-quote validator and revision check in `EVIDENCE.md`. If execution
+is unavailable, label notes unverified and do not automatically apply them.
 
-**Visual-first.** Action verbs only, no interiority on the page, roughly 40 to 60 pages
-of tight behavioural writing. Right for action thrillers and festival shorts.
-
-**Dialog-forward.** Articulated distinct voices, controlled interiority permitted in
-action lines, long scenes that carry real weight, roughly 90 to 110 pages. Right for
-prestige features and character thrillers.
-
-### The Strip-the-Diction Test
-
-In dialog-forward register, strip every action line and read only the dialogue. The
-story must still come through. If it does not, the dialogue is leaning on stage
-direction to carry meaning it should carry itself.
-
-## Diagnostic order when a draft is not working
-
-Work top-down. A structural problem cannot be fixed at the line level, so polishing
-dialogue on a broken spine wastes the pass.
-
-1. **Is the controlling idea coherent?** If theme, character architecture, and conflict
-   contradict each other, nothing below matters.
-2. **Is there an active antagonist?** A protagonist facing only external obstacles with
-   no opposing force produces diffuse tension. Common, and usually invisible to the writer.
-3. **Does the protagonist cause the ending?** If the climax resolves through arrival,
-   windfall, or coincidence, that is a payoff failure. Restructure rather than polish.
-4. **Does every scene pass G.O.D.D.?**
-5. **Is the dialogue carrying subtext?**
-6. **Can a dialogue-skimming reader follow the discovery, objective, and danger?**
-7. **Are the action lines filmable, geographically clear, and physically suspenseful?**
-
-## Working method
-
-Preserve the project's established source format. Use Fountain as a useful default only
-when a new project has no source-of-truth format. An established FDX project stays FDX;
-temporary conversions never silently replace it. Critique per act against the codex,
-revise only within the approved scope, and compile the final deliverable last.
-
-When the writer asks to discuss notes first, diagnose and recommend without editing.
-Promote a new craft rule only after writer approval, blind comparison, complete mechanical
-validation, and a held-out check against other projects or registers.
-
-For system-level changes or claims of professional parity, follow `EVALUATION.md` in the
-repository. Never use the model's self-score as proof that the writing is professional.
-
-## Scope
-
-This skill is doctrine, not automation. Separate local tools exist that automate some
-of these passes against a private corpus, but they are not required and are not
-available in cloud sessions. Everything here is executable by hand.
+The repository contains no private screenplay corpus. Use only source material
+actually supplied in the session. Existing user authorization governs the scope
+of revisions; passing validation does not grant additional authority.

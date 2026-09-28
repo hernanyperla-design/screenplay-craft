@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-28
+
+- Added a portable, standard-library source-quotation validator and pre-revision
+  receipt check, with synthetic offline regression tests.
+- Required exact attributed draft evidence, separate labeling of interpretations,
+  and rejection of invalid or stale critiques before automatic revision.
+- Moved the shared skill workflow into the repository and made refresh failures
+  visible in the new bootstrap. Older skills reading the updated codex receive
+  the evidence requirement too.
+- Kept private scripts, exemplars, and the local rewrite engine out of the repo.
+- These are mechanical safeguards. No new creative rule or claim of improved
+  creative quality is promoted by this release.
+
 ## 2026-09-08
 
 ### Added
