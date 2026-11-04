@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-11-03
+
+- Clarified when to apply a dialogue-only plot test and how to check a visual discovery.
+- Added revision questions for page cuts and broken promises, plus two candidate checks for speculative suspense and survival scenes.
+
 ## 2026-09-28
 
 - Added a portable, standard-library source-quotation validator and pre-revision
