@@ -62,9 +62,11 @@ prestige features and character thrillers.
 
 ### The Strip-the-Diction Test
 
-In dialog-forward register, strip every action line and read only the dialogue. The
-story must still come through. If it does not, the dialogue is leaning on stage
-direction to carry meaning it should carry itself.
+In dialog-forward register, read the dialogue alone. Can you follow the essential
+situation, who wants what, and what is at stake? When one missing fact belongs
+to a visual discovery or a deliberate silence, restore the action and check the
+next choice before adding a line. Honor a brief that calls for the entire plot
+to play in dialogue alone.
 
 ## Diagnostic order when a draft is not working
 
@@ -79,7 +81,7 @@ dialogue on a broken spine wastes the pass.
    windfall, or coincidence, that is a payoff failure. Restructure rather than polish.
 4. **Does every scene pass G.O.D.D.?**
 5. **Is the dialogue carrying subtext?**
-6. **Can a dialogue-skimming reader follow the discovery, objective, and danger?**
+6. **Does the exchange give the reader the orientation this register calls for?**
 7. **Are the action lines filmable, geographically clear, and physically suspenseful?**
 
 ## Working method
@@ -90,6 +92,8 @@ temporary conversions never silently replace it. Critique per act against the co
 revise only within the approved scope, and compile the final deliverable last.
 
 When the writer asks to discuss notes first, diagnose and recommend without editing.
+For cuts, an abrupt reversal or competing pressures, use the relevant question in
+[Revision decisions](REVISION-DECISIONS.md). Its genre questions are candidates.
 Promote a new craft rule only after writer approval, blind comparison, complete mechanical
 validation, and a held-out check against other projects or registers.
 

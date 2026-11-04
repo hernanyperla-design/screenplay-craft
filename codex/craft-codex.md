@@ -383,10 +383,15 @@ This connects directly to the head-fake principle - a surprise lands as inevitab
 
 A commercial thriller must work for two readers at once:
 
-1. **The dialogue-skimming reader** must understand the essential discovery, the immediate objective, the disputed interpretation, and the cost of failure.
+Apply the writer's current brief first. A dialogue-only plot read is a delivery
+requirement when the writer asks for it. Where the brief allows a silent turn,
+check the following choice with the action restored. See
+[Revision decisions](../REVISION-DECISIONS.md) for the cut and reversal checks.
+
+1. **The dialogue-skimming reader** should be able to track the essential situation, the immediate objective, and the danger if it goes wrong.
 2. **The full reader** must experience the geography, obstruction, timing, behavior, and physical consequence that make the sequence suspenseful.
 
-Read the dialogue alone first. If the situation disappears, restore orientation through conflict: a question, correction, challenge, misunderstanding, demand, or pressured explanation. Then read the complete scene and verify that action supplies evidence and complication rather than merely repeating the dialogue.
+Read the dialogue alone first, then restore the action. If the reader still cannot follow the next choice, locate the missing fact. A legible physical clue may supply it. When a character needs an answer, a question or challenge can do the work in dialogue.
 
 **Governing distinction:** be clear about the situation. Use subtext for what people resist, conceal, or cannot admit.
 
@@ -449,7 +454,7 @@ People under real pressure do not remain uniformly polished. Depending on voice,
 
 ### Diagnostic Pass
 
-1. Does the dialogue-only read preserve discovery, objective, and danger?
+1. Does the dialogue-only read carry the orientation the writer wants? Does the full scene make the discovery and its consequence clear?
 2. Does the complete read make position, obstruction, reach, and timing clear?
 3. Can the audience measure approaching danger before impact?
 4. Does each consequential decision receive enough time to land?
