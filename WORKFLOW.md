@@ -60,6 +60,11 @@ of tight behavioural writing. Right for action thrillers and festival shorts.
 action lines, long scenes that carry real weight, roughly 90 to 110 pages. Right for
 prestige features and character thrillers.
 
+**Genre sections.** Name the genre sections that apply at the same time: Section VII
+when hidden information is the engine, Section IX for a commercial thriller. Where two
+sections pull against each other, the one named for the project governs. The writer's
+hand notes outrank both.
+
 ### The Strip-the-Diction Test
 
 In dialog-forward register, read the dialogue alone. Can you follow the essential

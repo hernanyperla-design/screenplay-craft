@@ -213,6 +213,8 @@ A 4/5 opening is strong. A 3/5 opening is functional. A 2/5 or below — restruc
 
 > **Working draft (added 2026-05-07).** Use when the script depends on withheld information, slow reveals, embedded clues, or a buried twist — i.e. mystery, thriller, conspiracy, sci-fi reveal, character-secret drama. Sections I–V are the universal screenplay craft; Section VII layers on top when mystery is the engine. A script with no buried information can largely skip this section.
 
+> **Scope note (candidate, added 2026-11-11).** In a commercial thriller, these principles apply to the facts the story is deliberately hiding. A clue the lead must see and act on belongs to Section IX.
+
 A mystery is not "a story where information is withheld." A mystery is a story where the **audience's incomplete picture of the truth** is itself the engine of attention. Every principle below exists to manage that incompleteness — keeping the audience leaning forward without cheating them, starving them, or overloading them.
 
 ### Twelve Principles
@@ -346,6 +348,8 @@ Something is emphasized and then abandoned. Cheap to fix: either pay it off or c
 
 If you cannot name the job, the line is decoration. Cut it. This pass typically finds more to remove than to add, which is the point - a draft gets sharper by subtraction more reliably than by addition.
 
+> **Scope note (candidate, added 2026-11-11).** In a commercial thriller or comedy register, two more jobs count: orienting the audience at a turn, and a laugh in the speaker's own voice. See Section IX before cutting either as decoration.
+
 ### Direction 2 - The Unplanted Shot (paid off, never set up)
 
 A payoff arrives that was never seeded. The scene "works" in isolation but reads as contrivance because the audience's prediction machine was given nothing to predict with. This is the more damaging error and the harder one to see, because the writer knows the setup exists in their head.
@@ -451,6 +455,16 @@ People under real pressure do not remain uniformly polished. Depending on voice,
 - Price major revelations. A character should learn them while attempting something difficult, under jeopardy, or at a cost.
 - A strong early reveal can accelerate the story. Once the central hidden fact is exposed, convert the mystery into a new dramatic question rather than stretching the original concealment.
 - A reveal should reframe earlier evidence and increase agency or culpability, not merely add information.
+
+### Candidates From a Contained-Thriller Revision
+
+> **Candidate (added 2026-11-11).** Drawn from one project. Try each on a relevant scene and record a counterexample as well as a success. Do not apply them outside this register.
+
+- **Which section governs.** When the writer places a project in this register, this section governs how plainly the situation is stated. Section VII still governs the facts the story is deliberately hiding. A clue the lead must act on is not one of them. Show it so the audience sees it, and let the suspense come from what the lead does next.
+- **Plans said aloud.** Let the audience hear enough of a plan to follow the attempt. Hold back the part whose discovery is the pleasure. A character may pull known pieces together when the synthesis produces a new conclusion or the next move.
+- **A laugh is a job.** Banter, a topper, or a button line earns its place when it is funny in that person's voice. Give a bit player one line with an attitude.
+- **Loud inside the block.** A set piece gets its full sequence: the shock, the stunned aftermath, compliance and fear, then the fight beat by beat. Make it loud with capitalized sounds and key nouns, strong verbs, reactions, and an occasional exclamation point. Keep the compact blocks described above. Breaking the action into single-line fragments makes it quieter, not louder.
+- **Fear scaled to experience.** A lead with no training should not sound sure the plan will work. Let the fear show in behavior or in one plain admission, and let an ally notice it.
 
 ### Diagnostic Pass
 

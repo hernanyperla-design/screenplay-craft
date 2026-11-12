@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-11-11
+
+- Added a rule for which genre section governs when two disagree, with scope notes on
+  Sections VII and VIII for commercial thrillers.
+- Added candidate guidance to Section IX: plans said aloud, humor as a job, loud set
+  pieces inside compact blocks, and fear scaled to the lead's experience.
+- Added three candidate revision questions for commercial thrillers: what a win cost a
+  careful antagonist, whether a change of course raises the price, and who acts in the
+  last set piece.
+- Every addition is a candidate drawn from one project. No stable rule changed.
+
 ## 2026-11-03
 
 - Clarified when to apply a dialogue-only plot test and how to check a visual discovery.

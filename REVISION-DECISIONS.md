@@ -16,4 +16,12 @@ Use the question that fits the note. A cut made to an approximate length and a c
 
 **Which danger changes the next move?** In a rescue, identify what will fail first and what someone does because of it. An established longer deadline can wait until it changes a route, costs them an ally or rules out shelter. Keep both clocks in the scene when they force competing choices.
 
+## Candidates for commercial thrillers
+
+**What did the win cost a careful antagonist?** When the lead gets away with something, find the reason a competent opponent allowed it. A guard who wanders off makes the escape cheap. A guard pulled away by the delivery he was ordered to wait for has a reason, and the lead gets ten seconds. If the opponent later works out how it was done, the audience trusts both sides more.
+
+**When the antagonist changes course, does the price go up?** An order to hold off should leave someone worse off than the order it replaced. "Don't hurt him yet" lowers the pressure. "Don't hurt him. His sister will bring us what we want" moves the threat onto someone who now has to choose.
+
+**Who from the story is in the last set piece?** List the allies and devices the script has taught the audience to enjoy. Check which of them act in the climax, and whether the lead arranged it. An ally who has been silent for twenty pages should be heard from before then, or the return reads as a rescue.
+
 The first three questions put existing revision principles to work. The genre questions are candidates for trying on a relevant scene. Record a counterexample as well as a success before proposing wider use. The [evaluation standard](EVALUATION.md) governs promotion.
