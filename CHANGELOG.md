@@ -10,6 +10,8 @@
   careful antagonist, whether a change of course raises the price, and who acts in the
   last set piece.
 - Every addition is a candidate drawn from one project. No stable rule changed.
+- Narrowed two of those candidates, plans said aloud and humor as a job, to talk scenes.
+  In two blind comparisons the earlier guidance was preferred for an action scene.
 
 ## 2026-11-03
 
