@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-22
+
+- Added a candidate protocol for act-level rewrites to the workflow: full read and notes
+  first, a "therefore" or "but" chain and the writer's decisions before any pages, one act
+  per pass, mechanical checks last.
+- It is a process candidate from one project and one reader. No craft rule changed, and it
+  has not been blind tested.
+
 ## 2026-11-11
 
 - Added a rule for which genre section governs when two disagree, with scope notes on
