@@ -105,6 +105,33 @@ validation, and a held-out check against other projects or registers.
 For system-level changes or claims of professional parity, follow `EVALUATION.md` in the
 repository. Never use the model's self-score as proof that the writing is professional.
 
+## Act-level rewrite protocol (candidate)
+
+Candidate. Drawn from one project and one reader, and not yet blind tested. Use it when an
+act or a long sequence has to be rebuilt. It is not for line edits or a single scene.
+
+1. Read the whole current draft straight through, and every note the writer left on it,
+   before proposing anything. Read each note against the page it sits on.
+2. Reply in one message with no pages in it: what the notes have in common, a one-page
+   chain of beats linked by "therefore" or "but" (never "and then"), what the reference
+   scripts do at the same point in their stories, and the two or three decisions only the
+   writer can make.
+3. List what is already planted on the page. A new scene pays off a plant before it
+   invents new machinery.
+4. Name the one sentence the act turns on, a claim both leads have a stake in.
+5. Read reference scripts with a question, for mechanism and not for style.
+6. Write nothing until the writer has approved the chain and answered the decisions.
+7. Write one act per pass, in one sitting. Stop for the writer's read before the next act.
+8. Run mechanical checks last: format, speaker cues, a diff against the previous pass.
+   They are not evidence that the pages work.
+
+Why it is a candidate: on one script the same model at the same settings wrote a final
+act the writer threw out and, days later, a replacement he approved on first read. The
+first was written before he had read that stretch, from a list of principles, in several
+passes with no read between them. The second followed the steps above. Genre does not
+change the steps. It changes which reference scripts are read and which register rules
+apply.
+
 ## Source-based critique and revision
 
 Follow `EVIDENCE.md` and run the shared validator before presenting a source-based
